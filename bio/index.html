@@ -1,0 +1,286 @@
+
+<!-- MADE BY BENI Discord: pbenii -->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BENI</title>
+        <meta name="description" content="pbeni.hu | BENI">
+        <meta property="og:title" content="robuxgenerator.zip">
+        <meta property="og:description" content="pbeni.hu | BENI">
+        <meta property="og:image" content="https://files.catbox.moe/f6geum.png">
+        <meta property="og:url" content="https://robuxgenerator.zip">
+        <meta property="og:type" content="website">
+        <meta name="theme-color" content="#b39d64">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/vanphonggiang/font-awesome-6-pro/css/all.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+<script>
+  var i = 0;
+  var txt = '';
+  var speed = 1000;
+  var isDeleting = false;
+
+  function typeWriter() {
+    if (isDeleting && i > 0) {
+      document.title = "@" + txt.substring(0, i-1);
+      i--;
+      setTimeout(typeWriter, speed);
+    } else if (!isDeleting && i < txt.length) {
+      document.title = "@" + txt.substring(0, i+1);
+      i++;
+      setTimeout(typeWriter, speed);
+    }
+
+    if (i == txt.length) {
+      isDeleting = true;
+    } else if (i == 0) {
+      isDeleting = false;
+    }
+  }
+
+  typeWriter();
+</script>
+
+
+
+<link rel="stylesheet" href="css/all.min.css">
+</head>
+
+<body>      
+
+ <div id="enter">
+        <p>Click to enter</p>
+</div>
+
+<div style="background-image:url(media/background.mp4); position: absolute; height: 100%; width: 100%; background-size: cover; background-position: 50%; z-index: -1;"></div>
+
+<div class="videobg">
+  <video id="vidx" loop="" playsinline="" draggable="false" autoplay="" muted="">
+    <source src="media/background.mp4" type="video/mp4" id="video-source"></video>
+</div>
+
+<div class="pixelated"></div>
+
+
+    <div class="landing" id="landing">
+      
+<!-- "Profil" -->
+<div class="border">
+  <div class="avatar_effect">
+      <div class="avatar-container" style="display: flex; justify-content: center; align-items: center;">
+          <img src="https://cdn.discordapp.com/avatars/569077690238369802/901dc476a6989df5841bf50e66a00118?size=1024" alt="Avatar" class="inline-effect avatar">
+      </div>
+  </div>
+
+
+        <div class="social-media">
+            <!-- Felhasználónév -->
+
+            <h1 class="customglow-username" style="margin-top: 0px; margin-bottom: 0px;">BENI
+            </h1>
+
+
+
+
+
+
+            <!-- Ikonok/Rangok -->
+            <div class="role-icon-wrapper">
+            <div class="role-icon custom">             
+            
+            <i class="fa-solid fa-crown" style="color: yellow;"></i>
+            
+            <span class="tooltip">BENI</span>
+            </div>
+
+            <div class="role-icon helper">
+
+              <i class="fa-solid fa-code" style=""></i>
+
+            <span class="tooltip">Developer</span>
+            </div>
+
+            <div class="role-icon staff">
+
+
+
+            <span class="tooltip">Staff<span>
+            </div>
+
+            <div class="role-icon boost">
+
+            
+
+            <span class="tooltip">Bestest Boy</span>
+            </div>
+	</div>
+
+
+
+            <!-- Leírás  -->
+              <p class="description typewrite", data-period="1000" data-type='["The one and only BENI | Owner @ bbio.lol | Discord Developer"]'>
+                <span class="wrap"></span>
+              </p>          
+              <iframe style="border-radius:10px; margin-top: 15px; display: inline-block;" src="https://open.spotify.com/embed/track/6PyRfJN2K5Sm1vfOuF4Z9z?utm_source=generator" width="90%" height="90" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          <!-- Közösségi média fiókok  -->
+          <div  style="
+              margin-top: 25px;
+              color: #fff;
+              font-size: 2.4rem;
+              transition: all .2s ease-in-out;
+              font-family: 'Courier New', Courier, monospace;
+          ">
+          <div class="socials">
+            <a href="https://www.youtube.com/channel/UCKSzCqQAxCZDUacOlwfieww" target="_blank" rel="noopener noreferrer">
+
+              <i class="fa-brands fa-youtube" style="text-shadow: 0 0 0.10em #FF0000; color: #FF0000;"></i>
+              
+
+            </a>
+          </div>
+          <div class="socials">
+            <a href="https://twitter.com/BENI9166" target="_blank" rel="noopener noreferrer">
+
+              <i class="fa-brands fa-twitter" style="text-shadow: 0 0 0.10em #1DA1F2; color: #1DA1F2;"></i>
+              
+
+            </a>
+          </div>
+          <div class="socials">
+            <a class="icon" href="https://discordapp.com/users/569077690238369802" target="_blank" rel="noopener noreferrer">
+
+              <i class="fa-brands fa-discord" style=" text-shadow: 0 0 0.10em #7289da; color: #7289da;"></i>
+              
+
+            </a>
+          </div>
+        </div>
+     </div>
+  </div>
+<audio loop="true" id="audio">
+        <source src="media/jemapelle.mp3" type="audio/mpeg">
+</audio>
+
+
+
+<script src="js/main.js"></script>
+<script src="js/clicker.js"></script>
+
+<script>
+    var roleIconWrapper = document.querySelector('.role-icon-wrapper');
+    if (roleIconWrapper.innerHTML.trim() === '') {
+        roleIconWrapper.style.display = 'none';
+    }
+</script>
+
+<script src="js/effects.js"></script>
+  <script>
+window.addEventListener("load", (event) => {
+        new cursoreffects.Cursor({colors: ["#fffafa"]});
+});
+  </script>
+  
+
+<script>
+    var roleIconWrapper = document.querySelector('.role-icon-wrapper');
+    if (roleIconWrapper.innerHTML.trim() === '') {
+        roleIconWrapper.style.display = 'none';
+    }
+</script>
+
+
+<script>
+let text = `simswap collective`;
+let formattedText = text.replace(/(\r\n|\n|\r)/g, '<br>');
+console.log(formattedText)
+
+</script>
+
+
+<script>
+   var TxtType = function(el, toRotate, period) {
+    this.toRotate = toRotate;
+    this.el = el;
+    this.loopNum = 0;
+    this.period = parseInt(period, 10) || 1000;
+    this.txt = '';
+    this.isDeleting = false;
+    this.messages = this.toRotate[this.loopNum].split('|').map(message => message.replace(/!br!/g, '<br/>'));
+    this.messageIndex = 0;
+    this.tick();
+};
+
+window.onload = function() {
+    var elements = document.getElementsByClassName('typewrite');
+    for (var i=0; i<elements.length; i++) {
+        var toRotate = elements[i].getAttribute('data-type');
+        toRotate = toRotate.replace(/\n|\r\n/g, '\\n');
+        var period = elements[i].getAttribute('data-period');
+        if (toRotate) {
+            var parsed = JSON.parse(toRotate); 
+            for (var j=0; j<parsed.length; j++) {
+                parsed[j] = parsed[j].replace(/\\n/g, '\n').replace(/\n/g, '!br!');
+            }
+            new TxtType(elements[i], parsed, period);
+        }
+    }
+    var css = document.createElement("style");
+    css.type = "text/css";
+    css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+    document.body.appendChild(css);
+};
+
+TxtType.prototype.tick = function() {
+    var fullTxt = this.messages[this.messageIndex];
+
+    if (this.isDeleting) {
+        if (this.txt.endsWith('<br/>')) {
+            this.txt = this.txt.substring(0, this.txt.lastIndexOf('<'));
+        } else {
+            this.txt = fullTxt.substring(0, this.txt.length - 1);
+        }
+    } else {
+        if (fullTxt.substring(this.txt.length, this.txt.length + 5) === '<br/>') {
+            this.txt += '<br/>';
+        } else {
+            this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+    }
+
+    this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+    var that = this;
+    var delta = 200 - Math.random() * 100;
+
+    if (this.isDeleting) { 
+        delta /= 4;
+        if (this.txt === '') {
+            this.isDeleting = false;
+            if (++this.messageIndex >= this.messages.length) {
+                this.messageIndex = 0;
+                this.loopNum++;
+                if (this.loopNum >= this.toRotate.length) {
+                    this.loopNum = 0;
+                }
+                this.messages = this.toRotate[this.loopNum].split('|').map(message => message.replace(/!br!/g, '<br/>'));
+            }
+            delta = 500;
+        }
+    }
+
+    if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+    }
+
+    setTimeout(function() {
+        that.tick();
+    }, delta);
+};
+</script>
+
+<style type="text/css">.typewrite > .wrap { border-right: 0.08em solid #fff}</style></body>
+</html>
