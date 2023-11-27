@@ -191,7 +191,7 @@ html, body {
       max-width: 20rem;
       border-radius: 20px;
       backdrop-filter: blur(7px);
-      background-image: radial-gradient( circle 815px at 23.4% -21.8%,  rgba(9,29,85,1) 0.2%, rgba(0,0,0,1) 100.2% )!important;
+      background-color: #00000070!important;
   }
       
   @media (max-width : 480px) {
