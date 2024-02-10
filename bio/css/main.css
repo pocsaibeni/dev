@@ -1,4 +1,7 @@
 @font-face { font-family: Vina; src: url('ONEDAY.ttf'); } 
+html{
+    color-scheme: dark;
+}
 
 body {
     background-color: #000;
@@ -191,7 +194,7 @@ html, body {
       height: 453;
       border-radius: 57.5px;
       backdrop-filter: blur(52px);
-      background-color: #0000001a!important;
+      background-color: #00000040!important;
       border-color: #ffffff0d;
       border-width: 1.5px;
   }
