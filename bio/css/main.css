@@ -190,8 +190,8 @@ html, body {
       width: 100%;
       max-width: 20rem;
       border-radius: 20px;
-      backdrop-filter: blur(7px);
-      background-color: #00000070!important;
+      backdrop-filter: blur(52px);
+      background-color: #0000001a!important;
   }
       
   @media (max-width : 480px) {
